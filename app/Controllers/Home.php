@@ -6,12 +6,6 @@ class Home extends BaseController
 {
     public function index()
     {
-        $datos= [   
-            "titulo" => "inicio de code"
-        ];
-        return view('welcome_message', $datos);
-    }
-    public function contacto(){
-        return view('contacto_prueba');
+        return view('welcome_message');
     }
 }
